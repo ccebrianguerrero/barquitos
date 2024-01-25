@@ -32,7 +32,7 @@ public class Partida {
         //Crear jugadores
         jugadores=new Jugador[apodos.length];
         for (int i = 0; i < apodos.length; i++) {
-            jugadores[i] = new Jugador(apodos[i], new Flota(), new TableroPropio(), new TableroEnemigo());
+            jugadores[i] = new Jugador(apodos[i], flotas[i], tablerosPropios[i], tablerosEnemigos[i]);
         }
     }
 
